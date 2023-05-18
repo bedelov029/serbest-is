@@ -1,0 +1,300 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+html body {
+    height: 100%;
+}
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color:rgb(28, 4, 94);;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .div1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header select {
+    background-color: rgb(28, 4, 94);;
+    border: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.header .sign {
+    color: white;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.header .user {
+    color: white;
+    margin-right: 30px;
+}
+
+.header .search {
+    color: white;
+    font-size: 20px;
+}
+/*section start*/
+
+/*.section {
+    background-image: url(plant.jpg);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: contain;
+    background-position:center;
+    object-fit: cover;
+    width: 1000px; ------------------------------------------------->>>>> IMPORTANT
+    height: 595px;
+}*/
+
+.section .section2 {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 400px;
+}
+
+.section .title {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    align-items: center;
+    margin-left: 390px;
+    margin-top: 50px;
+    word-spacing: 10px;
+
+}
+
+.section .section2 .icon1{
+    width: 170px;
+    height: 120px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section .section2 .icon2 {
+    width: 200px;
+    height: 170px;
+    background-color: rgb(28, 4, 94);;
+    color: white;
+}
+
+.section .section2 .icon3{
+    width: 170px;
+    height: 120px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section .section2 .icon1 span i {
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size:x-large;
+    color:rgb(31, 29, 29)
+}
+
+.section .section2 .icon1 .yazi1 {
+    color: black;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.section .section2 .icon2 span i {
+    margin-top: 50px;
+    margin-left: 85px;
+    font-size:x-large;
+    color:white;
+}
+
+.section .section2 .icon2 .yazi2 {
+    color: white;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.section .section2 .icon3 span i {
+    color: black;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: x-large;
+}
+
+.section .section2 .icon3 .yazi3 {
+    color: black;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/*.section .last {
+    display: inline-flex;
+    margin-left: 170px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    width: 800px;
+    height: 65px;
+}
+
+.section .last .id {
+    display: inline-block;
+    margin-left: 30px;
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section .end {
+    display: inline-flex;
+    background-color: orange;
+    color: white;
+    height: 65px;
+    width: 100px;
+    margin-left: 450px;
+}*/
+
+/*.section .last {
+    color: white;
+    background-color: black;
+    height: 65px;
+    width: 400px;
+    margin-left: 160px;
+}
+
+.section .last .end {
+    display: inline-block;
+    height: 65px;
+    width: 50px;
+    background-color: orange;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    color: white;
+}
+.section .last .end {
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    height: 65px;
+    width: 100px;
+}*/
+
+.section .section3 {
+    display: flex;
+    margin-top: 380px;
+    margin-left: 180px;
+}
+
+.section .section3 .last1 {
+    background-color: white;
+    height: 60px;
+    width: 500px;
+    margin-left: 180px;
+}
+
+.section .section3 .last2 {
+    background-color: rgb(226, 98, 13);
+    height: 60px;
+    width: 130px;
+}
+
+.section .section3 .last1 .yazi1 {
+    display: block;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section .section3 .last2 .yazi2 {
+    display: block;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.section .last3 {
+    margin-left: 358px ;
+    margin-top: 468px;
+}
+
+.section .last3 .yazi3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    word-spacing: 5px;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
